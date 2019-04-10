@@ -1,0 +1,268 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height:1;
+}
+
+body{       
+			line-height: 1;
+			
+			background-image: url(../backgrounds/background6.jpg);
+			
+			
+		}
+
+.container{
+ 			 margin:0;
+ 			 padding:0;
+ 			 
+			
+		}
+		
+#head_wrap{
+			 width:100%;
+			 height:70px;
+			 margin:0 auto;
+			 border-bottom:2px solid orange;
+			 padding:10px;
+			 background:#3377bb;
+			 padding-left:200px;
+		}
+		
+#header{
+			 margin:0 auto;
+			 padding:10px;
+			 height:70px;
+			 
+			}
+#header ul{
+				font-family:"Arial Black", Gadget, sans-serif;
+			}
+			
+#menu{
+			/*line-height:55px;*/
+			padding:0;
+			margin:0;
+			float:left;
+			height:60px;
+			
+			}
+			
+#menu li{
+			display:inline;
+			list-style:none;
+			}
+#menu a{
+			margin:5px;
+			padding:5px;
+			text-decoration:none;
+			color:gray;
+			font-size:20px;
+			font-weight:bold;
+			}
+			
+			
+#menu a:hover{
+			color:brown;
+			font-weight:bolder;
+			text-decoration:underline;
+			
+			}
+
+#form1{
+			float:right;
+			
+			
+			}	
+			
+#form1 input{
+			border-radius:5px;			
+			padding-top:1px;
+			}
+			
+#form3 {
+	padding:20px;
+			}
+			
+
+.content{
+		width:1000px;
+
+			}
+#user_timeline{
+			background:orange;
+			width:278px;
+			border-right:1px solid black;
+			float:left;
+			height:587px;
+  
+			}
+#content_timeline{
+			
+    padding-left: 281px;
+	
+
+			}
+#user_details{
+		padding:2px;
+		margin-bottom:5px;
+		
+			}
+	
+#user_nfo{
+		background:#3377bb;
+		border:1px solid black;
+		border-radius:10px;
+		text-align:center;
+		
+			}
+	
+	
+#user_details img{
+		border:1px solid black;
+		border-radius:10px;
+		width:270px;
+			}
+	
+#user_details a{
+		
+		font-size:15px;
+		text-decoration:none;font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		
+			}
+	
+
+	
+	
+#user_details p{
+		margin-bottom:10px;
+		padding:5px;
+			}
+.ff input{margin:5px;}	
+.ff select{margin:5px;}	
+#f{
+			padding:10px;
+			width:702px;
+			background:#3377bb;
+			}
+#f input{
+			padding:8px;
+			border:1px solid black;
+			border-radius:5px;
+			font-weight:bolder;
+			}
+#f textarea{
+			padding:8px;
+			border:1px solid black;
+			border-radius:5px;
+		
+			}
+		
+#f select{
+			padding:8px;
+			border:1px solid black;
+			border-radius:5px;
+			
+			}
+
+#pagination{
+				margin-top:20px;
+				
+			}
+				
+#pagination a{
+			color:blue;
+			text-decoration:none;
+			font-size:18px;
+			margin:5px;
+				
+			}
+				
+#pagination a:hover{
+				color:brown;
+				font-weight:bold;
+				
+			}
+#posts{
+			padding:10px;
+			border:solid black 1px;
+			width:700px;
+			background:#3377bb;
+			text-align:justified;
+			font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+			}
+		
+#posts img{
+			float:left;
+			padding-top:3px;
+			padding-right:5px;  
+			}
+	   
+
+	   
+#posts h4{
+			color:brown;
+			font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+			}
+			       
+#posts_container{
+			background:#5F9EA0;
+			width:722px;
+			}
+		
+#posts button:hover{
+			background:blue;
+			}
+
+#comments{
+			background:Lavender;
+			padding:5px;
+			border-top:2px solid brown;
+			}			
+#comments p{
+	
+			}
+#comments span{
+			color:blue;
+			}
+
+#footer{
+			width:100%;
+			height:40px;
+			padding:10px;
+			background:#1E90FF;
+			border:5px solid orange;
+			}
+
+#footer h2{
+			text-align:center;
+			padding-top:3px;
+			color:#FFFFFF;
+			}		
+			
